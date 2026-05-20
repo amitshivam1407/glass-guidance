@@ -1,4 +1,4 @@
-# GLASS Guidance for UAV Enclosed Inspection
+# GLASS Guidance for Enclosed Inspection Using UAV
 
 This repository contains MATLAB simulations and demonstration results for:
 
@@ -32,21 +32,20 @@ The method uses a hyperbolic-tangent shaping function encapsulating polar engage
 <table>
 <tr>
 <td align="center" width="50%">
-<h3>GLASS Trajectory Convergence</h3>
+<h3>GLASS Guidance: Outside Initial Condition</h3>
 <img src="./figures/glass_guidance_outside.gif" width="430">
 <br>
-<p>UAV convergence to a prescribed standoff orbit using bounded look-angle shaping.</p>
+<p>Far-field capture from outside the desired standoff orbit using bounded look-angle shaping.</p>
 </td>
 
 <td align="center" width="50%">
-<h3>Comparison with Arcsine Shaping</h3>
+<h3>GLASS Guidance: Inside Initial Condition</h3>
 <img src="./figures/glass_guidance_inside.gif" width="430">
 <br>
-<p>Faster far-field capture without excessive turn-rate demand.</p>
+<p>Orbit acquisition from inside the desired standoff boundary with smooth radial convergence.</p>
 </td>
 </tr>
 </table>
-
 ---
 
 ## Repository Structure
