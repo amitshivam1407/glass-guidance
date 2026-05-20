@@ -1,0 +1,12 @@
+
+
+```text
+*.asv
+*.autosave
+*.fig
+*.slxc
+*.mex*
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
